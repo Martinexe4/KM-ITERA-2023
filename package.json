@@ -2,7 +2,8 @@
     "private": true,
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "start": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.14",
