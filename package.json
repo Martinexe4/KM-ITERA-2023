@@ -3,7 +3,7 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-        "start": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+        "start": "npx tailwindcss -i ./resources/FE/src/input.css -o ./resources/FE/dist/output.css --watch"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.14",
